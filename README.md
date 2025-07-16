@@ -12,10 +12,15 @@ Bu proje ile kullanıcı deneyimi geliştirilecek, zaman tasarrufu sağlanacak v
 📝 Fonksiyonel İsterler
 
 ✅ Kullanıcı, görsel dosyası yükleyebilmelidir.
+
 ✅ Seçilen dosyanın adı, analizden önce görüntülenmelidir.
+
 ✅ Kullanıcı, tek tıklamayla analiz başlatabilmelidir.
+
 ✅ Sistem, görseli HuggingFace API’ye gönderip analiz etmelidir.
+
 ✅ Sonuçlar, etiketler ve yüzdelerle birlikte ekranda gösterilmelidir.
+
 ✅ Web arayüzü sade, anlaşılır ve kullanıcı dostu olmalıdır.
 
 🛠️ Kullanılan Teknolojiler
