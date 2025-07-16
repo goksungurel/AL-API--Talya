@@ -26,8 +26,11 @@ Bu proje ile kullanıcı deneyimi geliştirilecek, zaman tasarrufu sağlanacak v
 🛠️ Kullanılan Teknolojiler
 
 Node.js — Sunucu tarafı
+
 HTML5 & CSS3 — Kullanıcı arayüzü
+
 JavaScript — Dinamik işlevler
+
 HuggingFace Inference API — Yapay zekâ tabanlı görüntü tanıma
 
 📁 Dosya Yapısı
