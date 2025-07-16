@@ -28,10 +28,15 @@ HuggingFace Inference API — Yapay zekâ tabanlı görüntü tanıma
 📁 Dosya Yapısı
 
 ai-goruntu-tanima/
+
 ├── index.html → Ana HTML dosyası
+
 ├── style.css → Stil dosyası
+
 ├── app.js → İstemci tarafı JavaScript
+
 ├── server.js → Sunucu uygulaması
+
 └── uploads/ → Geçici yüklenen dosyalar
 
 
