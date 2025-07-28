@@ -1,53 +1,51 @@
-🤖 AI Görüntü Tanıma — Talya Staj 2025
 
-Bu proje, Talya şirketindeki 2025 yılı staj dönemi kapsamında geliştirilmiştir.
-Web tabanlı bir yapay zekâ uygulaması olup, yüklenen görsellerdeki nesneleri tanıyıp etiketler ve güven yüzdelerini kullanıcıya sunar.
+# 🤖 AI API Service (Text-to-Text)
 
-📊 Analiz
+Bu proje, farklı yapay zeka servis sağlayıcıları (OpenAI, Gemini, DeepSeek vb.) ile metin tabanlı sohbet gerçekleştirmek amacıyla geliştirilmiş **genel amaçlı bir API servisidir**.  
+Python (Flask) ile yazılmış backend, kullanıcıdan gelen mesajı ilgili modele yönlendirir ve yanıtı standart bir formatta geri döndürür.
 
-Kullanıcıların veya personelin, yüklenen görsellerin içeriğini hızlıca tanıma ihtiyacı tespit edilmiştir.
-Mevcut durumda bu işlem ya manuel olarak yapılmakta ya da karmaşık araçlar gerektirmektedir.
-Bu proje ile kullanıcı deneyimi geliştirilecek, zaman tasarrufu sağlanacak ve süreç basitleştirilecektir.
+---
 
-📝 Fonksiyonel İsterler
+## 🧠 Projenin Amacı
 
-✅ Kullanıcı, görsel dosyası yükleyebilmelidir.
+- Kullanıcıdan gelen metni alıp modele iletmek  
+- OpenAI ve benzeri servislerle entegre çalışmak  
+- Modüler yapı sayesinde modele özel dosyalarda yönlendirme yapmak  
+- Frontend’e ihtiyaç duymadan API ile AI cevapları almak
 
-✅ Seçilen dosyanın adı, analizden önce görüntülenmelidir.
+---
 
-✅ Kullanıcı, tek tıklamayla analiz başlatabilmelidir.
+## 🔧 Kullanılan Teknolojiler
+- Python 
+- Flask  
+- Requests  
+- python-dotenv
 
-✅ Sistem, görseli HuggingFace API’ye gönderip analiz etmelidir.
+---
 
-✅ Sonuçlar, etiketler ve yüzdelerle birlikte ekranda gösterilmelidir.
+## 📁 Proje Dosya Yapısı
 
-✅ Web arayüzü sade, anlaşılır ve kullanıcı dostu olmalıdır.
+ai-api-project/
+├── app.py # Flask uygulaması ve /api/analyze endpoint'i
 
-🛠️ Kullanılan Teknolojiler
+├── openai_service.py # OpenAI modeline istek atan servis
 
-Node.js — Sunucu tarafı
+├── gemini_service.py # Gemini için 
 
-HTML5 & CSS3 — Kullanıcı arayüzü
+├── deepseek_service.py # DeepSeek için 
 
-JavaScript — Dinamik işlevler
+├── .env # API anahtarları (gizli)
 
-HuggingFace Inference API — Yapay zekâ tabanlı görüntü tanıma
+├── requirements.txt # Gerekli paketler
 
-📁 Dosya Yapısı
+---
+🛠 Geliştirme Fikirleri
 
-ai-goruntu-tanima/
+Diğer AI sağlayıcıları (Gemini, DeepSeek) için entegrasyon
+API loglama ve hata yönetimi
+Yanıt önbellekleme (caching)
+Kullanıcı kimlik doğrulama (opsiyonel)
+Unit testler ve otomatik test entegrasyonu
 
-├── index.html → Ana HTML dosyası
-
-├── style.css → Stil dosyası
-
-├── app.js → İstemci tarafı JavaScript
-
-├── server.js → Sunucu uygulaması
-
-└── uploads/ → Geçici yüklenen dosyalar
-
-
-<img width="1276" height="1125" alt="Screenshot 2025-07-16 at 15 22 16" src="https://github.com/user-attachments/assets/8a600f0e-ac85-48bf-8720-e7f6944a89e2" />
 
 
