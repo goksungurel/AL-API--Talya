@@ -42,9 +42,13 @@ ai-api-project/
 🛠 Geliştirme Fikirleri
 
 Diğer AI sağlayıcıları (Gemini, DeepSeek) için entegrasyon
+
 API loglama ve hata yönetimi
+
 Yanıt önbellekleme (caching)
+
 Kullanıcı kimlik doğrulama (opsiyonel)
+
 Unit testler ve otomatik test entegrasyonu
 
 
